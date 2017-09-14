@@ -16,7 +16,7 @@ git submodule init
 git submodule update
 cd
 
-cd $work_dir/vendor/basic-cpu-and-memory.tmux
+cd $work_dir/vendor/tmux-mem-cpu-load
 cmake .
 make
 make install
